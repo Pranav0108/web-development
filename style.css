@@ -3,6 +3,26 @@
     padding: 0px;
     box-sizing: border-box
 }
+.hero {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.hero-text {
+    background-color: rgba(0,0,0, 0.4);
+    background-size:cover;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
 body{
     margin-top: 0px;
     font-family: Verdana, sans-serif;
@@ -17,7 +37,6 @@ h1{
   text-decoration: underline;
   font-family: Georgia;
   text-shadow: 0px 0px 2px;
-  : grey;
 }
 h2{
   font-size: 20px;
